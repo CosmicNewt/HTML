@@ -4,11 +4,6 @@ header {
   width : 100%;
   border : 2px solid DodgerBlue;
 }
-
-img:hover {
-  width: 60px;
-  height: 60px;
-}
 hr {
   width:600;
   margin:auto;
@@ -33,6 +28,9 @@ li {
 float: left;
 }
 
+select {
+  background-color:#333333
+}
 li a {
 display: block;
 color: white;
@@ -43,4 +41,9 @@ text-decoration: none;
 
 li a:hover {
 background-color: #111111;
+}
+
+#emailImg:hover {
+  width: 60px;
+  height: 60px;
 }
